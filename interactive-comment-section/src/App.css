@@ -1,38 +1,101 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.container{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.Comment{
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 150px;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+/* Popularity */
+.popularity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: hsl(238, 40%, 52%);
+  background-color: #F5F6FA;
+  border-radius: 10px;
+  /* padding: 5px; */
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+}
+button{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #F5F6FA;
+  color: hsl(238, 40%, 52%);
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+span{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #F5F6FA;
+  color: hsl(238, 40%, 52%);
+  font-size: 16px;
+  font-weight: 900;
+}
+/* popularity end */
+.comment__header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 100%; 
+}
+.comment__body{
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: left;
+}
+.comment__body p{
+  font-weight: 400;
+  color: #76797E;
+}
+.comment__avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+ 
+.comment__username{
+  font-weight: 700;
+  margin-right: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.comment__createdAt{
+  color: hsl(0, 0%, 48%);
+}
+
+.replay__button{
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }

@@ -4,6 +4,7 @@
 #####################################################
 *.sketch
 *.fig
+node_modules
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
@@ -17,4 +18,4 @@
 /design
 index.html
 style-guide.md
-style-guide.md
+/README-template.md
