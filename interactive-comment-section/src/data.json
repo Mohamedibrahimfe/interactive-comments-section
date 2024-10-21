@@ -63,6 +63,20 @@
           }
         }
       ]
+    },
+    {
+      "id": 11,
+      "user": {
+        "image": {
+          "png": "./images/avatars/image-amyrobson.png",
+          "webp": "./images/avatars/image-amyrobson.webp"
+        },
+        "username": "mohamed"
+      },
+      "createdAt": "22 October 2024 at 2:27:58",
+      "content": "",
+      "score": 0,
+      "replies": []
     }
   ]
 }
